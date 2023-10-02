@@ -1,6 +1,6 @@
 @import "./hero.scss";
 @import "./about.scss";
-@import "./services.scss";
+@import "./work.scss";
 
 
 :root {
@@ -70,4 +70,8 @@
     --bs-link-hover-color: #c34e2e;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
 }

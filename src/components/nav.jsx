@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid flex-column">
         <a className="navbar-brand fs-2" href="#">
           Casa<span className="fs-1" style={{ color: "#dbb481", textDecoration:"underline"}}>Decor</span>
@@ -29,18 +29,18 @@ const Nav = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
+              <a class="nav-link" href="#about">
+                About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
+              <a class="nav-link" href="#services">
+                Services
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-                Disabled
+              <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">
+                Contact Us
               </a>
             </li>
           </ul>
